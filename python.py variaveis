@@ -1,0 +1,10 @@
+var = 4
+
+#print(type(var))
+var2 = 3.5
+
+#print(type(var2))
+
+palavra = "Vitor"
+
+#print(type(palavra))
