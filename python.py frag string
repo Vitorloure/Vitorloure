@@ -1,0 +1,4 @@
+freecodecamp = "freeCodeCamp"
+print(freecodecamp[2:8])
+
+print(freecodecamp[0:7])
