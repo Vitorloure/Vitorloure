@@ -1,0 +1,20 @@
+soma = print(input(5+5)) 
+print(5+5)
+
+subtracao = print(input(10 -5))
+print(10-5)
+
+divisao = print(input(10/3))
+print(10/3)
+
+exp = print(input(2**3))
+print(2**3)
+
+multiplicacao = print(input(4*4))
+print(4*4)
+
+restointeiro = print(input(5//2))
+print(5//2)
+
+restodivisao = print(input(5%2))
+print(5%2)
