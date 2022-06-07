@@ -1,0 +1,9 @@
+a = 5
+b = 3
+
+soma = a +b
+
+if soma == 10:
+     print("A soma eh igual a 10")
+else:
+    print("A soma nao e igual a 10")
