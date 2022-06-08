@@ -21,3 +21,17 @@ else:
     print("Voce eh maior de idade!")
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+rep = "Insira a pizza novamente"
+cmd1 = "pizza"
+cmd2 = "hamburguer"
+print(f"Escolha entre pizza ou hamburguer")
+
+
+cmd1 = (input(f"Sua escolha: "))
+if cmd1 == ("pizza"):
+      print(f"{cmd1} possui muitas calorias, melhor escolher outro")
+else:
+    for rep in range(1):
+        print(input("Insira a comida novamente: "))
+        if cmd1 == ("pizza"):
+         print(f"{cmd1} possui muitas calorias")
