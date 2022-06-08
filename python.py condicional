@@ -15,7 +15,7 @@ else:
     nome = (input("Qual eh o seu nome, meu amigo? "))
 print("Prazer em te conhecer,",nome,",seja bem vindo.")
 idade =(input("Qual a sua idade? "))
-if idade <= ("18"):
+if idade < 18:
     print("Voce eh menor de idade!")
 else:
     print("Voce eh maior de idade!")
@@ -35,3 +35,14 @@ else:
         print(input("Insira a comida novamente: "))
         if cmd1 == ("pizza"):
          print(f"{cmd1} possui muitas calorias")
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+anoa = 2022
+idade = int(input("Em que ano você nasceu? "))
+soma = (anoa - idade)
+if soma >= 18 :
+    print("Voce é adulto!")
+else:
+    print("Voce nao é adulto!")
