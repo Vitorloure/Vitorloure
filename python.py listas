@@ -1,0 +1,19 @@
+minha_lista = [1, 2, 3, 4]
+
+print(len(minha_lista))
+
+
+#mudança de letra
+letras = ["a", "b", "c", "d"]
+letras[0] = "z"
+
+print(letras)
+
+
+
+
+#mudança de letra
+letras = ["a", "b", "c", "d"]
+letras[0] = "z"
+
+print(letras[n])
