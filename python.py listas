@@ -17,3 +17,57 @@ letras = ["a", "b", "c", "d"]
 letras[0] = "z"
 
 print(letras[n])
+
+
+
+
+#adicionar valor a lista
+letras = ["a", "b", "c", "d"]
+letras[0] = "z"
+letras.append("priest")
+print(letras)
+
+print(letras[4])
+
+
+
+
+
+#remover valor a lista
+minha_lista = [1, 2, 3, 4]
+minha_lista.remove(1)
+print(minha_lista)
+
+
+
+#indexição da lista
+
+number = ["1","2","3","4"]
+
+number[0] = "1"
+number[1] = "2"
+number[2] = "3"
+number[3] = "4"
+
+
+#divisão de listas
+print(number[0:3:1])
+
+
+
+
+lista = [1,2,3,4,]
+lista.append(5)
+print(lista)
+
+lista.extend([6,7,8])
+print(lista)
+
+lista.insert(2,15)
+print(lista)
+
+lista.remove(2)
+print(lista)
+
+lista.reverse()
+print(lista)
