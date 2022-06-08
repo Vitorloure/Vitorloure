@@ -1,0 +1,12 @@
+comida = "melao"
+
+if comida == "pizza":
+    print("possui muitas calorias!")
+elif comida == "Abobora":
+    print("Possui poucas calorias!")
+elif comida == "Churrasco":
+    print("Possui muitas calorias!")
+elif comida == "melao":
+    print("Possui poucas calorias!")  
+else:
+    print("desconheço as calorias!")
