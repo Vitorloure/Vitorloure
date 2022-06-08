@@ -38,11 +38,14 @@ else:
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 anoa = 2022
 idade = int(input("Em que ano você nasceu? "))
 soma = (anoa - idade)
-if soma >= 18 :
+if soma < 0:
+    print("Idade invalida")
+if soma >= 100:
+    print("idade invalida")
+elif soma >= 18 :
     print("Voce é adulto!")
 else:
     print("Voce nao é adulto!")
