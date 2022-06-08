@@ -6,3 +6,30 @@
 
 #listacompras ={f"id_do_produto": 4556, "ingredientes": ("tomate" ,"queijo", "cogumelos"), "preco": 10.67}
 #print(listacompras)
+
+
+listaMateriais = {f"caderno": 1, "lapis": 2, "borracha": 3, "reguas": 4}
+
+#print(listaMateriais)
+
+print(len(listaMateriais))
+
+
+#ler bibli
+print(listaMateriais["caderno"])
+
+
+#adicionar valores a bibli
+listaMateriais["corretivo"] = 5
+print(listaMateriais)
+
+
+#Excluir um valor da bibli
+#del(listaMateriais["caderno"])
+#print(listaMateriais)
+
+
+#get
+print(listaMateriais.get("caderno"))
+print(listaMateriais.get("lapis"))
+print(listaMateriais.get("borracha"))
