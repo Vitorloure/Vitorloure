@@ -14,6 +14,12 @@ print(f"Ola, seja bem vindo(a) ao restaurante do seu Zé,este é o cardapio {car
 
 pedido = int(input("Qual o prato que o senhor(a) gostaria de pedir?, por gentileza peça pelo numero do prato: "))
 
+
+while pedido > 9:
+    print("Por favor refaça o pedido: ")
+    if pedido == int(input("Qual o prato que o senhor(a) gostaria de pedir?, por gentileza peça pelo numero do prato: ")):
+        break
+
 if pedido == 1:
          print("Aproveite bem a sua pizza, volte sempre!")
 elif pedido == 2:
