@@ -1,0 +1,34 @@
+cardapio = [1,2,3,4,5,6,7,8,9]
+cardapio[0] = " 1-pizza"
+cardapio[1] = " 2-prato feito"
+cardapio[2] = " 3-hamburguer"
+cardapio[3] = " 4-saladinha de alface"
+cardapio[4] = " 5-saladinha de tomate"
+cardapio[5] = " 6-saladinha de pepino"
+cardapio[6] = " 7-x-salada"
+cardapio[7] = " 8-coxinha"
+cardapio[8] = " 9-risolhes"
+
+
+print(f"Ola, seja bem vindo(a) ao restaurante do seu Zé,este é o cardapio {cardapio},fique a vontade.")
+
+pedido = int(input("Qual o prato que o senhor(a) gostaria de pedir?, por gentileza peça pelo numero do prato: "))
+
+if pedido == 1:
+         print("Aproveite bem a sua pizza, volte sempre!")
+elif pedido == 2:
+    print("Aproveite bem seu prato feito, volte sempre!")
+elif pedido == 3:
+    print("Aproveite bem seu hamburguer, volte sempre!")
+elif pedido == 4:
+    print("Aproveite bem sua salada de alface, volte sempre!")
+elif pedido == 5:
+    print("Aproveite bem sua saladinha de tomate, volte sempre!")
+elif pedido == 6:
+    print("Aproveite bem sua saladinha de pepino, volte sempre!")
+elif pedido == 7:
+    print("Aproveite bem seu x-salada, volte sempre!")
+elif pedido == 8:
+    print("Aproveite bem sua coxinha, volte sempre!")
+elif pedido == 9:
+    print("Aproveite bem seu risolhes, volte sempre!")
