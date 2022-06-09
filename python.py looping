@@ -1,2 +1,25 @@
 for n in range(50):
     print(n)
+
+
+
+a = 1
+for i in range(5):
+    a = a + 9
+    print(a)
+
+
+
+
+a = 4
+b = 9
+soma = a * b
+for b in range(b):
+    print("Imprima a frase")
+    
+    
+    
+    lista = [2,56,78,35,24,45,56]
+
+for num in lista:
+    print(num)
