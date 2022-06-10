@@ -1,0 +1,4 @@
+n1 = int(input("Me diga um numero, meu bom: "))
+n2 = int(input("Me diga outro numero, meu bom: "))
+r = ((n1+n2))
+print("A soma de {} e {} vale {}".format(n1,n2,r))
