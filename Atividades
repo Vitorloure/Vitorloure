@@ -1,0 +1,34 @@
+num1 = int(input("Me diga um numero, meu bom: "))
+ant = num1 - 1
+suc = num1 +1
+print(f"O sucessor desse número é: {suc}")
+print(f"O antecessor desse número é: {ant}")
+
+
+
+num1 = int(input("Me diga um numero, meu bom: "))
+dob = num1 * 2
+trip = num1 * 3
+rq = num1 * num1
+print(f"O dobro desse numero é: {dob}")
+print(f"O triplo desse número é: {trip}")
+print(f"A raiz quadrada desse número é: {rq}")
+
+
+
+
+
+
+
+num1 = int(input("Primeira nota: "))
+num2 = int(input("Segunda nota: "))
+med = num1 + num2 
+med1 = med / 2
+print(f"A media das notas é: {med1}")
+
+
+
+
+num1 = int(input("Insira um valor em metros: "))
+cm = num1 * 100
+print(f"O valor em cemtimetros é: {cm} cm")
