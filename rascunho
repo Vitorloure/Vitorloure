@@ -16,3 +16,48 @@ if nome == "vitor":
 
 else: 
  idade = int(input("Me informe sua idade, bixo feio: "))
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ l = str(input("Me digite uma letra, meu bom: "))
+
+if l == "a" or "A":
+  print("Essa letra é uma vogal!")
+else:
+  print("Essa letra é uma consoante")
+  
+if l == "e" or "E":
+  print("Essa letra é uma vogal!")
+
+else:
+  print("Essa letra é uma consoante")
+  
+if l == "i" or "I":
+  print("Essa letra é uma vogal!")
+
+else:
+  print("Essa letra é uma consoante")
+
+if l == "o" or "O":
+  print("Essa letra é uma vogal!")
+
+else:
+  print("Essa letra é uma consoante")
+
+if l == "u" or "U":
+  print("Essa letra é uma vogal!")
+
+else:
+  print("Essa letra é uma consoante")
