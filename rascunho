@@ -1,0 +1,18 @@
+nome = (input(f"Informe o seu nome: "))
+
+if nome == "1":
+  nome = input("Digite o nome novamente: ")
+  
+elif nome == "2":
+  nome = input("Digite o nome novamente: ")
+  
+if nome == 'vitor':
+  print("Nome bonito!")
+else:
+  print("Nome feio!")
+
+if nome == "vitor":
+ idade = int(input("Me informe sua idade, meu bom: "))
+
+else: 
+ idade = int(input("Me informe sua idade, bixo feio: "))
