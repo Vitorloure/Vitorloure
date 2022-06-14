@@ -9,7 +9,7 @@ print(f"O antecessor desse número é: {ant}")
 num1 = int(input("Me diga um numero, meu bom: "))
 dob = num1 * 2
 trip = num1 * 3
-rq = num1 * num1
+rq = num1**(1/2)
 print(f"O dobro desse numero é: {dob}")
 print(f"O triplo desse número é: {trip}")
 print(f"A raiz quadrada desse número é: {rq}")
@@ -32,3 +32,44 @@ print(f"A media das notas é: {med1}")
 num1 = int(input("Insira um valor em metros: "))
 cm = num1 * 100
 print(f"O valor em cemtimetros é: {cm} cm")
+
+
+
+
+
+
+num1 = int(input("Me diga um número, meu bom: "))
+tab1 = num1 * 1
+tab2 = num1 * 2
+tab3 = num1 * 3
+tab4 = num1 * 4
+tab5 = num1 * 5
+tab6 = num1 * 6
+tab7 = num1 * 7
+tab8 = num1 * 8
+tab9 = num1 * 9
+tab10 = num1 * 10
+print(f"{num1} * 1 = {tab1} ")
+print(f"{num1} * 2 = {tab2} ")
+print(f"{num1} * 3 = {tab3} ")
+print(f"{num1} * 4 = {tab4} ")
+print(f"{num1} * 5 = {tab5} ")
+print(f"{num1} * 6 = {tab6} ")
+print(f"{num1} * 7 = {tab7} ")
+print(f"{num1} * 8 = {tab8} ")
+print(f"{num1} * 9 = {tab9} ")
+print(f"{num1} * 10 = {tab10} ")
+
+
+
+num1 = int(input("Me diga um valor em reais: "))
+alg = (num1 * 25,13)
+print (f"O valor em dólar irá ficar: {alg}")
+
+
+
+
+num1 = int(input("Qual o seu salario: "))
+div = (num1/10)
+aum = num1 + div
+print(f" O seu novo salario vai ser de: {aum}")
