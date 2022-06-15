@@ -20,44 +20,9 @@ else:
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- l = str(input("Me digite uma letra, meu bom: "))
+v = input('Digite um caractere: ')
 
-if l == "a" or "A":
-  print("Essa letra é uma vogal!")
+if v == "a" or v == "A" or v == "e" or v == "E" or v == "i" or v == "I" or v == "o" or v == "O" or v == "u" or v == "U":
+    print(f"A letra {v} é uma vogal")
 else:
-  print("Essa letra é uma consoante")
-  
-if l == "e" or "E":
-  print("Essa letra é uma vogal!")
-
-else:
-  print("Essa letra é uma consoante")
-  
-if l == "i" or "I":
-  print("Essa letra é uma vogal!")
-
-else:
-  print("Essa letra é uma consoante")
-
-if l == "o" or "O":
-  print("Essa letra é uma vogal!")
-
-else:
-  print("Essa letra é uma consoante")
-
-if l == "u" or "U":
-  print("Essa letra é uma vogal!")
-
-else:
-  print("Essa letra é uma consoante")
+    print(f"A letra {v} é uma consoante")
