@@ -26,3 +26,113 @@ if v == "a" or v == "A" or v == "e" or v == "E" or v == "i" or v == "I" or v == 
     print(f"A letra {v} é uma vogal")
 else:
     print(f"A letra {v} é uma consoante")
+
+
+
+
+nota1 = float(input("Nota 1: "))
+nota2 = float(input("Nota 2: "))
+
+med = (nota1 + nota2) / 2
+
+print(f"Sua média final é: {med} ")
+
+if med == 10:
+    print("Aprovado com distição")
+    
+elif med < 7:
+    print("Reprovado")
+    
+elif med >=7:
+    print("Aprovado")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    n1 = int(input("Número 1: "))
+n2 = int(input("Número 2: "))
+n3 = int(input("Número 3: "))
+
+
+if n1 == n2 and n1 > n3:
+    print("Os dois primeiros numerais são iguais, porém ambos são maiores que o terceiro!")
+
+if n1 == n3 and n2 > n1:
+    print("Primeiro e terceiro numeros são iguais, porem o segundo é maior!") 
+    
+if n1 == n2 and n3 > n1:
+    print("Os dois primeiro numeros são iguais, porem o terceiro é maior")
+    
+if n1 == n2 and n1 == n3:
+    print("Numeros iguais")
+    
+if n1 > n2 and n1 > n3:
+    print("Numero um é maior ")
+    
+ if n2 > n1 and n2 > n3:
+    print("Numero 2 é maior ")
+    
+  if n3 > n2 and n3 > n1:
+    print("Numero 3 é maior ")
+    
+    
+    
+    
+    
+    
+    
+    
+    n1 = int(input("Número 1: "))
+n2 = int(input("Número 2: "))
+n3 = int(input("Número 3: "))
+
+
+if n1 == n2 and n1 > n3:
+    print("Os dois primeiros números são iguais!")
+
+if n1 == n3 and n2 > n1:
+    print("Primeiro e terceiro números são iguais!") 
+    
+if n1 == n2 and n3 > n1:
+    print("Os dois primeiros números são iguais! ")
+    
+if n1 == n2 and n1 == n3:
+    print("Numeros iguais")
+    
+elif n1 > n2 and n1 > n3:
+    print("O primeiro número é maior ")
+
+elif n2 > n1 and n2 > n3:
+    print("O segundo número é maior ")
+    
+elif n3 > n2 and n3 > n1:
+    print("O terceiro número é maior ")
+    
+if n1 < n2 and n1 < n3:
+    print("O primeiro número é menor ")
+
+if n2 < n1 and n2 < n3:
+    print("O segundo número é menor ")
+    
+if n3 < n2 and n3 < n1:
+    print("O terceiro número é menor ")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
