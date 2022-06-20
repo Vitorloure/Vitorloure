@@ -1,0 +1,45 @@
+//1. Escreva	 um	 programa	 para	 ler	 2	 valores	 (considere	 que	 	 não	 serão	
+informados	valores	iguais)	e	escrever	o	maior	deles.
+
+n1 = int(input("Me informe um número, meu bom: "))
+n2 = int(input("Me informe outro número: "))
+
+if n1 > n2:
+    print(f"Número {n1} é maior que {n2} ")
+else:
+    print(f"Número {n2} é maior que {n1} ")
+    
+//Escreva	 um	 programa	 para	 ler	 o	 ano	 de	 nascimento	 de	 uma	 pessoa	 e	
+escrever	 uma	 mensagem	 que	 diga	 se	 ela	 poderá	 ou	 não	 votar	 este	 ano	
+(não	é	necessário	considerar	o	mês	em	que	ela	nasceu).
+
+n1 = int(input("Me informe o ano que o senhor(a) nasceu: "))
+c = (2022 - n1)
+
+if c >= 18:
+    print("Você já pode votar!")
+else:
+    print("Voce não pode votar!")
+    
+    
+//Escreva	 um	 programa	 que	 verifique	 a	 validade	 de	 uma	 senha	 fornecida	
+pelo	 usuário.	 A	 senha	 válida	 é	 o	 número	 1234.	Devem	 ser	impressas	 as	
+seguintes	mensagens:	
+ACESSO	PERMITIDO	caso	a	senha	seja	válida.	
+ACESSO	NEGADO	caso	a	senha	seja	inválida.
+
+senha = 1234
+vl = int(input("Por favor, insira a senha correta: "))
+if vl == 1234:
+    print("Senha correta!")
+else:
+    print("Senha incorreta!")
+    
+    
+As	maçãs	 custam	 R$	 0,30	 cada	 se	 forem	 compradas	menos	 do	 que	 uma	
+dúzia,	 e	 R$	 0,25	 se	 forem	 compradas	 pelo	 menos	 doze.	 Escreva	 um	
+programa	 que	 leia	 o	 número	 de	 maçãs	 compradas,	 calcule	 e	 escreva	 o	
+valor	total	da	compra.
+
+
+
