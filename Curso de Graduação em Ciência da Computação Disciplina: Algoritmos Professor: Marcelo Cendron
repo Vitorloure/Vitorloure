@@ -33,6 +33,89 @@ vl = int(input("Por favor, insira a senha correta: "))
 if vl == 1234:
     print("Senha correta!")
 else:
+     print("Senha incorreta!")
+
+
+//As	maçãs	 custam	 R$	 0,30	 cada	 se	 forem	 compradas	menos	 do	 que	 uma	
+dúzia,	 e	 R$	 0,25	 se	 forem	 compradas	 pelo	 menos	 doze.	 Escreva	 um	
+programa	 que	 leia	 o	 número	 de	 maçãs	 compradas,	 calcule	 e	 escreva	 o	
+valor	total	da	compra.
+
+nm = float(input("Quantas maçãs o senhor(a) vai querer levar? "))
+
+if nm < 12:
+     v = (0,30 * nm)
+     print(f"O total da sua compra foi {v} centavos")
+elif nm >= 12:
+     v = (0,25 * nm)
+     print(f"O total da sua compra foi {v} centavos")
+
+
+//Escreva	 um	 programa	 para	 ler	 3	 valores	 inteiros	 (considere	 que	 	 não	
+serão	lidos	valores	iguais)	e	escrevê-los	em	ordem	crescente.
+
+n1 = int(input("Me digite um número: "))
+n2 = int(input("Me digite um número: "))
+n3 =  int(input("Me digite um número: "))
+
+if n1 > n2 and n1 > n3 and n2 > n3:
+    print(f"{n3},{n2},{n1}")
+elif n1 > n2 and n1 > n3 and n3 > n2:
+    print(f"{n2},{n3},{n1}")
+elif n2 > n1 and n2 > n3 and n1 > n3:
+    print(f"{n3},{n2},{n1}")
+elif n2 > n1 and n2 > n3 and n3 > n1:
+    print(f"{n1},{n2},{n3}")
+elif n3 > n1 and n3 > n2 and n2 > n1:
+    print(f"{n1},{n2},{n3}")
+elif n3 > n1 and n3 > n2 and n1 > n2:
+    print(f"{n2},{n1},{n3}")
+    
+    
+//Tendo	 como	 entrada	 a	 altura	 e	 o	 sexo	 (codificado	 da	 seguinte	 forma:	
+1:feminino	 	 2:masculino)	 de	 uma	 pessoa,	 construa	 um	 programa	 que	
+calcule	e	imprima	seu	peso	ideal,	utilizando	as	seguintes	
+Fórmulas:	
+- para	homens:	(72.7	*	Altura)	– 58	
+- para	mulheres:	(62.1	*	Altura)	– 44.7
+
+
+alt = float(input("Me informe a sua altura em metros: "))
+sexo = input("Me informe o seu sexo: (m) ou (f):  ")
+imch = (72.7 * alt) - 58
+imcm = (62.1 * alt) - 44.7
+
+if sexo == "M" or sexo == "m":
+    print(f"Peso ideal: {imch}")
+if sexo == "F" or sexo == "f":
+    print(f"Peso ideal: {imcm}")
+    
+    
+Tendo	 como	 entrada	 a	 altura	 e	 o	 sexo	 (codificado	 da	 seguinte	 forma:	
+1:feminino	 	 2:masculino)	 de	 uma	 pessoa,	 construa	 um	 programa	 que	
+calcule	e	imprima	seu	peso	ideal,	utilizando	as	seguintes	
+Fórmulas:	
+- para	homens:	(72.7	*	Altura)	– 58	
+- para	mulheres:	(62.1	*	Altura)	– 44.7	
+
+alt = float(input("Me informe a sua altura em metros: "))
+sexo = input("Me informe o seu sexo: (m) ou (f):  ")
+imch = (72.7 * alt) - 58
+imcm = (62.1 * alt) - 44.7
+
+if sexo == "M" or sexo == "m":
+    print(f"Peso ideal: {imch}")
+if sexo == "F" or sexo == "f":
+    print(f"Peso ideal: {imcm}")
+
+Escreva	um	programa	para	ler	o	número	de	lados	de	um	polígono	regular	
+e	a	medida	do	lado	(em	cm).	Calcular	e	imprimir	o	seguinte:	
+− Se	o	número	de	lados	for	igual	a	3	escrever	TRIÂNGULO	e	o	valor	da	
+área
+− Se	o	número	de	lados	for	igual	a	4	escrever	QUADRADO	e	o	valor	da	
+sua	área.	
+− Se	o	número	de	lados	for	igual	a	5	escrever	PENTÁGONO.
+
     print("Senha incorreta!")
     
     
