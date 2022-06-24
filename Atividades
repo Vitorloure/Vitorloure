@@ -34,6 +34,11 @@ cm = num1 * 100
 print(f"O valor em cemtimetros é: {cm} cm")
 
 
+num1 = float(input("Me diga um valor em reais: "))
+alg = (num1 / 5.24  ) 
+print (f"O valor em reias irá ficar: {alg}")
+
+
 
 
 
@@ -63,7 +68,7 @@ print(f"{num1} * 10 = {tab10} ")
 
 
 num1 = int(input("Me diga um valor em reais: "))
-alg = (num1 * 25,13)
+alg = (num1 * 5,13)
 print (f"O valor em dólar irá ficar: {alg}")
 
 
