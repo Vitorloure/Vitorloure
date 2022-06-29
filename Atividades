@@ -54,6 +54,7 @@ tab7 = num1 * 7
 tab8 = num1 * 8
 tab9 = num1 * 9
 tab10 = num1 * 10
+print("Essa é a tabuada do número escolhido")
 print(f"{num1} * 1 = {tab1} ")
 print(f"{num1} * 2 = {tab2} ")
 print(f"{num1} * 3 = {tab3} ")
@@ -78,3 +79,82 @@ num1 = int(input("Qual o seu salario: "))
 div = (num1/10)
 aum = num1 + div
 print(f" O seu novo salario vai ser de: {aum}")
+
+
+
+
+
+
+
+al1 = float(input("Primeira nota do aluno 1: "))
+all1 = float(input("Segunda nota do aluno 1: "))
+med1 = (al1 + all1) / 2
+print(f"A média do aluno 1 é: {med1}")
+
+
+al2 = float(input("Primeira nota do aluno 2: "))
+all2 = float(input("Segunda nota do aluno 2: "))
+med2 = (al2 + all2) / 2
+print(f"A média do aluno 2 é: {med2}")
+
+
+al3 = float(input("Primeira nota do aluno 3: "))
+all3 = float(input("Terceira nota do aluno 3: "))
+med3 = (al3 + all3) / 2
+print(f"A média do aluno 3 é: {med3}")
+
+
+al4 = float(input("Primeira nota do aluno 4: "))
+all4 = float(input("Primeira nota do aluno 4: "))
+med4 = (al4 + all4) / 2
+print(f"A média do aluno 4 é: {med4}")
+
+al5 = float(input("Primeira nota do aluno 5: "))
+all5 = float(input("Primeira nota do aluno 5: "))
+med5 = (al5 + all5) / 2
+print(f"A média do aluno 5 é: {med5}")
+
+
+al6 = float(input("Primeira nota do aluno 6: "))
+all6 = float(input("Primeira nota do aluno 6: "))
+med6 = (al6 + all6) / 2
+print(f"A média do aluno 6 é: {med6}")
+
+al7 = float(input("Primeira nota do aluno 7: "))
+all7 = float(input("Primeira nota do aluno 7: "))
+med7 = (al7 + all7) / 2
+print(f"A média do aluno 7 é: {med7}")
+
+al8 = float(input("Primeira nota do aluno 8: "))
+all8 = float(input("Primeira nota do aluno 8: "))
+med8 = (al8 + all8) / 2
+print(f"A média do aluno 8 é: {med8}")
+
+
+medturma = (med1 + med2 + med3 + med4 + med5 + med6 + med7 + med8) / 8
+print(f"A media da turma é: {medturma}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("Iremos definir a média da altura do time, por favor nos de as informações: ")
+nt = input("O nome do time: ")
+print(
+"Consideramos que haverá somente 6 jogadores no time (Número de jogadores em uma partida oficial)")
+alt1 = float(input("Me informe a altura do jogador 1: "))
+alt2 = float(input("Me informe a altura do jogador 2: "))
+alt3 = float(input("Me informe a altura do jogador 3: "))
+alt4 = float(input("Me informe a altura do jogador 4: "))
+alt5 = float(input("Me informe a altura do jogador 5: "))
+alt6 = float(input("Me informe a altura do jogador 6: "))
+media = (alt1 + alt2 + alt3 + alt4 + alt5 + alt6) / 6
+print(f"A média das alturas dos jogadores é: {media}")
