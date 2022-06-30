@@ -33,3 +33,13 @@ print(listaMateriais)
 print(listaMateriais.get("caderno"))
 print(listaMateriais.get("lapis"))
 print(listaMateriais.get("borracha"))
+
+
+
+import math
+n = int(input("Digite um numero para calcular a raiz quadrada: "))
+raiz = math.sqrt(n)
+print("A raiz de {} = {}".format(n,raiz))
+print("A raiz de {} = {}".format(n,math.ceil(raiz)))
+print("A raiz de {} = {}".format(n,math.floor(raiz)))
+print("A raiz de {} = {:.2f}".format(n,raiz))
