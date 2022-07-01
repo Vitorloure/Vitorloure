@@ -1,0 +1,4 @@
+import random
+n = random.randint(1,40)
+print(f"Número de chamada do aluno sorteado: {n}")
+print(f"Parabéns aluno {n}, venha apagar o quadro. ")
