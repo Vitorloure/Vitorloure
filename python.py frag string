@@ -17,3 +17,8 @@ print(frase[8:15:2])
 
 frase = "aula de progamação"
 print (frase.find("pro"))
+
+
+frase = "aula de progamação"
+print(frase.replace("aula","curso"))
+
