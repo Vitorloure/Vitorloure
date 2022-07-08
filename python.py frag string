@@ -13,3 +13,7 @@ print(frase[8:])
 
 frase = "aula de progamação"
 print(frase[8:15:2])
+
+
+frase = "aula de progamação"
+print (frase.find("pro"))
