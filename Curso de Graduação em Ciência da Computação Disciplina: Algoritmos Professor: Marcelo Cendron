@@ -119,10 +119,15 @@ sua	área.
     print("Senha incorreta!")
     
     
-As	maçãs	 custam	 R$	 0,30	 cada	 se	 forem	 compradas	menos	 do	 que	 uma	
-dúzia,	 e	 R$	 0,25	 se	 forem	 compradas	 pelo	 menos	 doze.	 Escreva	 um	
-programa	 que	 leia	 o	 número	 de	 maçãs	 compradas,	 calcule	 e	 escreva	 o	
-valor	total	da	compra.
+n1 = int(input("Me imforme um numero: "))
+n2 = int(input("Me imfortme outro numero: "))
+
+if n1 == n2:
+    print("Os numeros são iguais")
+if n1 > n2:
+    print("Nùmero 1 é maior que número 2")
+if n2 > n1:
+    print("Numere 2 é ,maior que numero 1")
 
 
 
