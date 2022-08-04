@@ -1,0 +1,51 @@
+
+alt = float(input("Me informe a sua altura em metros: "))
+sexo = input("Me informe o seu sexo: (m) ou (f):  ")
+imch = (72.7 * alt) - 58
+imcm = (62.1 * alt) - 44.7
+
+if sexo == "M" or sexo == "m":
+    print(f"Peso ideal: {imch}")
+if sexo == "F" or sexo == "f":
+    print(f"Peso ideal: {imcm}")
+
+
+    
+    
+n1 = int(input("Me imforme um numero: "))
+n2 = int(input("Me imfortme outro numero: "))
+
+if n1 == n2:
+    print("Os numeros são iguais")
+if n1 > n2:
+    print("Nùmero 1 é maior que número 2")
+if n2 > n1:
+    print("Numere 2 é ,maior que numero 1")
+    
+    
+    
+    
+alt = float(input("Me informe a sua altura em metros: "))
+sexo = input("Me informe o seu sexo: (m) ou (f):  ")
+peso =  int(input("Qual o seu peso? "))
+alt1 = (alt * alt)      
+imch = (72.7 * alt) - 58
+imcm = (62.1 * alt) - 44.7
+imh = (peso / alt1 )
+            
+if sexo == "M" or sexo == "m":
+    print(f"Peso ideal: {imch}")
+elif imcm == imh:
+            print(" Normal ")
+elif imcm > imh:
+            print("Sobrepeso")
+
+            
+if sexo == "F" or sexo == "f":
+    print(f"Peso ideal: {imcm}")
+elif imch == imh:
+            print(" Normal ")
+elif imch > imh:
+            print("Sobrepeso")
+    
+    
