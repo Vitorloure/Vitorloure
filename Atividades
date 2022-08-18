@@ -158,3 +158,29 @@ alt5 = float(input("Me informe a altura do jogador 5: "))
 alt6 = float(input("Me informe a altura do jogador 6: "))
 media = (alt1 + alt2 + alt3 + alt4 + alt5 + alt6) / 6
 print(f"A média das alturas dos jogadores é: {media}")
+
+
+
+
+print("   Seja bem vindo(a) ao Lojão do Brunão!")
+
+vp = int(input("Já escolheu algum produto da nossa loja? Muito bem, agora me informe o preço que está endereçado nele: "))
+fp = str(input("Muito bem! Nos informe a sua forma de pagamento: "))
+av = (vp * 0.1)
+av1 = (vp - av)
+db = (vp * 0.05)
+db1 = (vp - db)
+pr = (vp * 0.20)
+pr1 = (vp + pr)
+
+if fp == "À vista" or fp == "á vista" or fp == "A vista" or fp == "a vista":
+    print("Muito bem, o senhor(a) irá receber um desconto de 10%, o valor final do produto irá totalizar em: {}".format(av1))
+elif fp == "Débido" or  fp == "débito" or fp == "debito" or  fp =="Debito":
+    print("Muito bem, o senhor(a) irá receber um desconto de 5%, o valor final do produto irá totalizar em: {}".format(db1))
+elif fp == "Crédito" or fp == "crédito" or fp == "Credito" or fp == "credito":
+    print("Muito bem, o senhor(a) não irá receber desconto, não gostamos de cartão de crédito, o valor total da compra ficará em : {}".format(vp)) 
+elif fp == "Parcelado" or fp == "parcelado":
+    print("Hum, então será assim!, Muito bem, iremos cobrar 20% acrécimo, e não reclame!, o valor total ficará : {} ".format(pr1)) 
+             
+    
+    
