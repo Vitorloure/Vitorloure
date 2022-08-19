@@ -222,3 +222,23 @@ elif jc == 2 and jg1 == 2:
     print("Empate, em breve teremos mais uma competição! ")
     
     
+    
+ vi = int(input("Qual o valor do imóvel? "))
+salario = int(input("Qual o seu salario? "))
+qa = int(input("Em quantos anos você irá pagar? "))
+
+vt1 = qa * 0.05
+vt = (vt1 * vi) + vi
+qp = qa * 12
+vp = vt / qp
+f3 = salario * 0.30
+
+
+if vp > f3:
+    print("Não será possivel realizar o financiamento, seu pobre! ")
+else:
+    print("Valor das parcelas: {}".format(vp))
+    print("Valor total do financiamento: {}".format(vt))
+
+    
+    
