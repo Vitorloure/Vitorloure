@@ -182,5 +182,43 @@ elif fp == "Crédito" or fp == "crédito" or fp == "Credito" or fp == "credito":
 elif fp == "Parcelado" or fp == "parcelado":
     print("Hum, então será assim!, Muito bem, iremos cobrar 20% acrécimo, e não reclame!, o valor total ficará : {} ".format(pr1)) 
              
+             
+             
+             
+ from random import randint 
+
+print("Bem vindo(a) ao campeonato mundial de Jankenpon, o famoso 'Pedra, papel e tesoura', de o seu melhor e seja o vencedor! ")
+print("Vamos as regras, se quiser jogar 'pedra' você deverá apertara tecla 0 ")
+print("Se quiser jogar 'tesoura' você deverá apertara tecla 1 ")
+print("E para jogar 'papel' você deverá apertara tecla 2 ")
+pedra = 0 
+tesoura = 1
+papel = 2
+jc = randint(0,2)
+jg1 = int(input("Qual a sua jogada? "))
+
+print("Jogada do adversário: {}".format(jc))
+print("Sua jogada: {}".format(jg1))
+
+if jc == 0 and jg1 == 1:
+    print("Infelizmente você perdeu! Boa sorte na próxima! ")
+elif jc == 0 and jg1 == 2:
+    print("Parabéns! Você foi o vencedor, receba o seu premio: um aperto de mão! ")
+elif jc == 0 and jg1 == 0:
+    print("Empate, em breve teremos mais uma competição! ")
+
+elif jc == 1 and jg1 == 2:
+    print("Infelizmente você perdeu! Boa sorte na próxima! ")
+elif jc == 1 and jg1 == 0:
+    print("Parabéns! Você foi o vencedor, receba o seu premio: um aperto de mão! ")
+elif jc == 1 and jg1 == 1:
+    print("Empate, em breve teremos mais uma competição! ")
+
+elif jc == 2 and jg1 == 0:
+    print("Infelizmente você perdeu! Boa sorte na próxima! ")
+elif jc == 2 and jg1 == 1:
+    print("Parabéns! Você foi o vencedor, receba o seu premio: um aperto de mão! ")
+elif jc == 2 and jg1 == 2:
+    print("Empate, em breve teremos mais uma competição! ")
     
     
