@@ -23,3 +23,55 @@ for b in range(b):
 
 for num in lista:
     print(num)
+    
+    
+    
+    
+    exercicio 1: 
+    
+    import time 
+a = 0
+for i in range(5):
+    time.sleep(1)
+    a = a + 1
+    print(f"Ano {a}")
+    
+    
+    
+    exercicio 2:
+    a = 0
+for i in range(100):
+    a = a + 1
+    print(a)
+
+
+exercicio 3:
+s = 0  
+for num in range(1, 501):  
+    if num % 2 != 0:  
+        if num % 3 == 0:  
+            s += num  
+print("Resultado da soma de todos os múltiplos é: {}.".format(s))
+
+
+exercicio 4:
+n = int(input("Digite um número: "))
+if n < 0:
+    print("Digite apenas valores positivos, seu burro.")
+if n == 0 or n == 1:
+    print(f"{n} é um caso especial.")
+else:
+    if n == 2:
+        print("2 é primo")
+    elif n % 2 == 0:
+        print(f"{n} não é primo.")
+    else:
+        x = 3
+        while(x < n):
+            if n % x == 0:
+                break
+            x = x + 2
+        if x == n:
+            print(f"{n} é primo")
+        else:
+            print(f"{n} não é primo, pois é divisível por {x}")
