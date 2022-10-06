@@ -18,4 +18,13 @@ contador = 1
 while (num-contador)>1:
     fat = fat*(num-contador)
     contador += 1
-print(f"O fatorial de {num} é = {fat}")    
+print(f"O fatorial de {num} é = {fat}")  
+
+
+
+
+sexo = str(input("Me informe o seu sexo: (M para masculino e F para feminino):  ")).upper()
+
+while sexo not in "MF":
+   sexo = str(input("Informe um sexo valido: ")).upper()
+print("Sexo valido!")
