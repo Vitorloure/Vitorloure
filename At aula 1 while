@@ -1,25 +1,23 @@
 n1 = float(input('Primeiro número: '))
 n2 = float(input('Segundo número: '))
-d = 0
-while d != 5:
-    print('''[1] somar
-[2] multiplicar
-[3] maior
-[4] novos númeors
-[5] sair do programa''')
-    d = int(input('Digite: '))
-    if d == 1:
+n = 0
+
+while n != 5:
+    print("(1) = somar, (2) = multiplicar, (3) = maior, (4) = novos números, (5) sair do programa")
+    n = int(input('Digite: '))
+
+    if n == 1:
         print('A soma é: {}'.format(n1+n2))
-    elif d == 2:
+    elif n == 2:
         print('A multiplicação é: {}'.format(n1*n2))
-    elif d == 3:
+    elif n == 3:
         if n1 > n2:
             print('O maior é: {}'.format(n1))
         else:
             print('O maior é {}'.format(n2))
-    elif d == 4:
+    elif n == 4:
         n1 = float(input('Primeiro número: '))
         n2 = float(input('Segundo número: '))
     else:
-        print('Número inválido.DIGITE NOVAMENTE')
-print('FIM DO PROGRAMA')
+        print('Digite novamente: ')
+print('Fim do programa,adios.')
