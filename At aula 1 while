@@ -55,3 +55,12 @@ for i in range(1, 6):
         continue
     print("Dentro do laço.",i)
 print("Fora do laço.")
+
+
+
+p = str(input("Me digas uma palavra: "))
+
+while p != 0:
+    p = str(input("Me digas uma palavra: "))
+    if p == "pare":
+        break 
